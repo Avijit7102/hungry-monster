@@ -1,0 +1,54 @@
+.food-page{
+    background-color: goldenrod;
+}
+.navbar-nav{
+    margin-left: auto;
+    padding-right: 250px;
+}
+.search{
+    text-align: center;
+    margin-top: 25px;
+}
+.input-field{
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-top: 20px;
+}
+#click-button{
+    color: white;
+    border-radius: 5px;
+    border:honeydew;
+}
+#search-result{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 50px 200px;
+}
+#search-result img{
+    width: 210px;
+}
+.food-info {
+    width: 210px;
+    text-align: center;
+    color: black
+    padding: 10px;
+}
+.food-info h4{
+    padding: 10px;
+}
+.missing-info{
+    margin-top: 50px;
+    text-align: center;
+    color: red;
+}
+.last-food-info img{
+    margin-top: 50px;
+    width: 400px;
+}
+.last-food-info h5{
+    margin-top: 15px;
+}
+#show-details{
+    margin-left: 550px;
+}
